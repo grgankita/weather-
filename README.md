@@ -1,2 +1,2 @@
 # weather
-uses weatherAPI to show wether updates of cities.
+uses weatherAPI to show weather updates of cities.
