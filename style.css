@@ -12,7 +12,7 @@ body {
   background: rgba(255, 255, 255, 0.1);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgb(255, 250, 160);
 }
 input {
   padding: 10px;
@@ -21,11 +21,21 @@ input {
   border-radius: 5px;
   margin-bottom: 10px;
 }
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px #fffdd0 inset !important;
+  -webkit-text-fill-color: #000 !important;
+}
+input:focus {
+  outline: 2px solid #ffd700;
+}
 button {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background: #71d3e7;
+  background: #fafa33;
   color: white;
   cursor: pointer;
 }
